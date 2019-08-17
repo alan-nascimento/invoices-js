@@ -1,7 +1,6 @@
-import express from "express";
+import express from 'express';
 
 class App {
-  express;
   constructor() {
     this.express = express();
   }
