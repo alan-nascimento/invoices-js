@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "sucrase-node src/index.js",
+    "build": "sucrase ./src -d ./dist --transforms javascript, imports"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1",
+    "sucrase": "^3.10.1"
+  }
+}
